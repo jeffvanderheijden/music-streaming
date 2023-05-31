@@ -1,0 +1,29 @@
+.navigation {
+    position: relative;
+    font-size: 14px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.navigation ul li {
+    background: black;
+    width: 100%;
+    margin: 0px 10px;
+    text-align: center;
+    color: #FFF;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 99px;
+}
+
+.navigation ul li a {
+    color: white;
+    width: 100%;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}

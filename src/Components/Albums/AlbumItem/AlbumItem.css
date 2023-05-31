@@ -1,0 +1,6 @@
+.albumItem {
+    width: 100%;
+    background-color: black;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}

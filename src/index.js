@@ -8,9 +8,9 @@ import {
 } from "react-router-dom";
 
 import Layout from './Layout';
-import SongList from './Components/Songs/SongList';
-import AlbumList from './Components/Albums/AlbumList';
-import ArtistList from './Components/Artists/ArtistList';
+import SongList from './Components/Songs/SongList/SongList';
+import AlbumList from './Components/Albums/AlbumList/AlbumList';
+import ArtistList from './Components/Artists/ArtistList/ArtistList';
 
 const router = createBrowserRouter([
   {

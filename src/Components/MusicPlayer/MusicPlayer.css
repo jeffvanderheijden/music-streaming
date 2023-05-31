@@ -1,0 +1,30 @@
+.musicPlayer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 80px);
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.musicPlayer h1 {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.musicPlayer p {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.musicPlayer .playButton {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+}
