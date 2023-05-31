@@ -6,7 +6,7 @@ const Layout = ({
   children
 }) => {
   // We save the current song state at the highest parent level
-  // So we can pass it to our music player and SongItem components
+  // So we can pass it down as props to our music player and SongItem components
   const [currentSong, setCurrentSong] = useState({});
 
   return (
