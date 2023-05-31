@@ -10,19 +10,22 @@ const Layout = ({
   const [currentSong, setCurrentSong] = useState({});
 
   return (
-    <main className="layout">
-      <Navigation />
-      <div className="mainContent">
-        {/* To pass the currentSong props to our variable children component */}
-        {/* We first need to clone it and add the props manually */}
-        {/* Otherwise react won't rerender on changes to the state */}
-        {React.cloneElement(
-          children, 
-          { setCurrentSong: setCurrentSong }
-        )}
-      </div>
-      <MusicPlayer currentSong={currentSong} />
-    </main>
+    <>
+      <h1 className="mainTitle">React: Music player</h1>
+      <main className="layout">
+        <Navigation />
+        <div className="mainContent">
+          {/* To pass the currentSong props to our variable children component */}
+          {/* We first need to clone it and add the props manually */}
+          {/* Otherwise react won't rerender on changes to the state */}
+          {React.cloneElement(
+            children, 
+            { setCurrentSong: setCurrentSong }
+          )}
+        </div>
+        <MusicPlayer currentSong={currentSong} />
+      </main>
+    </>
   )
 }
 

@@ -3,12 +3,13 @@
     bottom: 20px;
     left: 20px;
     width: calc(100% - 80px);
-    background-color: black;
+    background-color: rgba(0,0,0,1);
     border-radius: 10px;
     color: white;
     padding: 20px;
     display: flex;
     align-items: center;
+    box-shadow: 0px 0px 25px 0px #646464;
 }
 
 .musicPlayer h1 {
@@ -27,4 +28,5 @@
     margin-left: auto;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
