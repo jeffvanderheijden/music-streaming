@@ -15,6 +15,7 @@ import ArtistList from './Components/Artists/ArtistList/ArtistList';
 // This is React's router.
 // You can define different url "paths" 
 // and render corresponding components when a user requests those urls
+// https://reactrouter.com/en/main/router-components/browser-router
 const router = createBrowserRouter([
   {
     path: "/",
