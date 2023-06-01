@@ -11,7 +11,7 @@ const SongItem = ({
       onClick={() => { setCurrentSong(song) }}
     >
       <div className="albumImage">
-        <img src={song.image} />
+        <img src={song.image} alt={song.title} />
       </div>
       <div className="textWrap">
         <h1>

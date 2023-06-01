@@ -34,7 +34,7 @@ const MusicPlayer = ({
                 <div className="musicPlayer">
 
                     <div className="albumImage">
-                        <img src={currentSong.image} />
+                        <img src={currentSong.image} alt={currentSong.title} />
                     </div>
                     <div className="textWrap">
                         <h1>
