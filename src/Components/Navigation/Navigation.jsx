@@ -1,4 +1,6 @@
 import React from "react";
+// In react we use the router's <Link /> component to navigate within our application.
+// We can still use ahref's for outgoing links.
 import { Link } from "react-router-dom";
 import "./Navigation.css";
 

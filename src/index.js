@@ -12,9 +12,9 @@ import SongList from './Components/Songs/SongList/SongList';
 import AlbumList from './Components/Albums/AlbumList/AlbumList';
 import ArtistList from './Components/Artists/ArtistList/ArtistList';
 
-// This is reacts router.
+// This is React's router.
 // You can define different url "paths" 
-// and render coresponding components when a user requests those urls
+// and render corresponding components when a user requests those urls
 const router = createBrowserRouter([
   {
     path: "/",
